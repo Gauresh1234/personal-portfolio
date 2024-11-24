@@ -1,7 +1,10 @@
-function left() {
-    window.scrollBy(100, 0);
-  }
+function right(){
+  const element=document.getElementById("projects-lists")
+  element.scrollLeft +=50;
+  console.log("Running")
+}
 
-  function right() {
-    window.scrollBy(100, 0);
-  }
+function left(){
+  const element=document.getElementById('projects-lists')
+  element.scrollLeft -=50;
+}
