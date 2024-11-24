@@ -636,8 +636,11 @@ header {
 
   width: 48px;
   height: 48px;
-
-  border-radius: 48px;
+}
+.slider-btns button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 #slide {
   position: relative;
@@ -647,7 +650,7 @@ header {
 #slide1 {
   position: relative;
   top: 2360px;
-  right: 120px;
+  right: 110px;
 }
 .experience {
   display: flex;
